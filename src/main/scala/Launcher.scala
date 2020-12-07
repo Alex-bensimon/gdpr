@@ -9,6 +9,7 @@ import fr.esme.gdpr.configuration.JsonConfig._
 import fr.esme.gdpr.configuration.JsonConfigProtocol._
 import fr.esme.gdpr.utils.schemas.DataFrameSchema
 object Launcher {
+
   def main(args: Array[String]): Unit = {
     //Add Scopt command line
     Logger.getLogger("org").setLevel(Level.OFF)
